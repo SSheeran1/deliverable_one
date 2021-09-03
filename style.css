@@ -1,0 +1,124 @@
+body {
+  font-family: "bungee";
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+}
+
+nav li {
+  padding: 10px 15px;
+  display: inline;
+}
+
+nav a {
+  padding: 5px 0px;
+  font-size: 18px;
+}
+
+#logo {
+  width: 200px;
+  height: fit-content;
+}
+
+#truck {
+  width: 275px;
+  height: fit-content;
+}
+
+img {
+  width: 375px;
+  height: 275px;
+}
+
+#description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ff00ff;
+  justify-content: space-between;
+  padding: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#about {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#paragraph {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin: 0;
+  font-size: 1em;
+}
+
+#card-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 6px solid #7944e6;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 0 30px;
+  width: 300px;
+  height: 450px;
+}
+
+a {
+  text-decoration: none;
+  color: #7944e6;
+}
+
+a:hover {
+  color: #10fdff;
+}
+
+@media (min-width: 768px) {
+  #description {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #truck {
+    width: 400px;
+  }
+
+  p {
+    padding-left: 20px;
+    width: 500px;
+    display: flex;
+  }
+
+  #card-nav {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+  }
+}
